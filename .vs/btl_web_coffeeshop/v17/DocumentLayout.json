@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|d:\\semester_1_2024_2025\\ltweb\\website-for-coffeeshop\\coffeshopwebsite\\btl_web_coffeeshop\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|solutionrelative:btl_web_coffeeshop\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|d:\\semester_1_2024_2025\\ltweb\\website-for-coffeeshop\\coffeshopwebsite\\btl_web_coffeeshop\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|solutionrelative:btl_web_coffeeshop\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|d:\\semester_1_2024_2025\\ltweb\\website-for-coffeeshop\\coffeshopwebsite\\btl_web_coffeeshop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|solutionrelative:btl_web_coffeeshop\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|d:\\semester_1_2024_2025\\ltweb\\website-for-coffeeshop\\coffeshopwebsite\\btl_web_coffeeshop\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76F645C5-C768-4E28-B5DB-A8B1E5231402}|btl_web_coffeeshop\\btl_web_coffeeshop.csproj|solutionrelative:btl_web_coffeeshop\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,23 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "btl_web_coffeeshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "btl_web_coffeeshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAD4v98AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T15:18:39.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "btl_web_coffeeshop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "btl_web_coffeeshop\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAwwHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:12:45.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "btl_web_coffeeshop\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "btl_web_coffeeshop\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T15:12:38.925Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "btl_web_coffeeshop\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\Controllers\\AuthController.cs",
               "RelativeToolTip": "btl_web_coffeeshop\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwG8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:23:39.144Z",
+              "WhenOpened": "2024-10-28T02:47:06.231Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
 ﻿using btl_web_coffeeshop.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,6 +7,7 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Route("Admin/Category")]
+    [Authorize(Policy = "AdminOnly")]
     public class CategoryController : Controller
     {
         CoffeeShopDbContext db = new CoffeeShopDbContext();

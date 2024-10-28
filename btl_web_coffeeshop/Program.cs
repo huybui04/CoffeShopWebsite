@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -7,6 +7,7 @@ using btl_web_coffeeshop.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure JWT Authentication
 // Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -26,20 +27,30 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 
-    // Get token from cookie
+    // Lấy token từ cookie
     options.Events = new JwtBearerEvents
     {
         OnMessageReceived = context =>
         {
-            // Check if the request contains a cookie with the token
-            if (context.Request.Cookies.ContainsKey("AuthToken"))
+            if (context.Request.Cookies.ContainsKey("jwt"))
             {
-                context.Token = context.Request.Cookies["AuthToken"];
+                context.Token = context.Request.Cookies["jwt"];
             }
+            else
+            {
+                Console.WriteLine("No JWT token found in cookies.");
+            }
+            return Task.CompletedTask;
+        },
+        OnAuthenticationFailed = context =>
+        {
+            Console.WriteLine($"Authentication failed: {context.Exception.Message}");
             return Task.CompletedTask;
         }
     };
+
 });
+
 
 // Add DbContext to the container
 builder.Services.AddDbContext<CoffeeShopDbContext>(options =>
@@ -47,6 +58,12 @@ builder.Services.AddDbContext<CoffeeShopDbContext>(options =>
 
 // Add services for controllers with views
 builder.Services.AddControllersWithViews();
+
+// Configure Authorization
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin")); // Thêm chính sách phân quyền Admin
+});
 
 var app = builder.Build();
 

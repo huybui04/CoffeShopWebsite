@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using btl_web_coffeeshop.Models;
 using System.Threading.Tasks;
 using BCrypt.Net;
@@ -14,10 +15,13 @@ namespace btl_web_coffeeshop.Controllers
     public class AuthController : Controller
     {
         private readonly CoffeeShopDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public AuthController(CoffeeShopDbContext context)
+        // Cập nhật constructor để nhận IConfiguration
+        public AuthController(CoffeeShopDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         // GET: Auth/Register
@@ -39,6 +43,7 @@ namespace btl_web_coffeeshop.Controllers
 
             // Hash mật khẩu
             user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            user.RoleId = 2; // Gán vai trò User (2 là ID cho User)
 
             // Lưu người dùng
             _context.Users.Add(user);
@@ -54,11 +59,13 @@ namespace btl_web_coffeeshop.Controllers
             return View();
         }
 
-        // POST: Auth/Login
+        //POST: Auth/Login
         [HttpPost("login")]
         public async Task<IActionResult> Login(User loginUser)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == loginUser.Username);
+
+            // Kiểm tra người dùng và mật khẩu
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginUser.PasswordHash, user.PasswordHash))
             {
                 ModelState.AddModelError("", "Tên người dùng hoặc mật khẩu không hợp lệ.");
@@ -67,17 +74,24 @@ namespace btl_web_coffeeshop.Controllers
 
             // Tạo JWT token
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.UTF8.GetBytes("@huy27112004"); // Đưa cái này vào appsettings.json
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
+
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+        new Claim(ClaimTypes.Name, user.Username),
+        new Claim(ClaimTypes.Role, user.RoleId == 1 ? "Admin" : "User") // Claim cho vai trò
+    };
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-                    new Claim(ClaimTypes.Name, user.Username),
-                }),
+                Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddHours(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                Audience = _configuration["Jwt:Audience"], // Đảm bảo đưa vào appsettings.json
+                Issuer = _configuration["Jwt:Issuer"]      // Đảm bảo đưa vào appsettings.json
             };
+
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
 
@@ -85,12 +99,24 @@ namespace btl_web_coffeeshop.Controllers
             Response.Cookies.Append("jwt", tokenString, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = true,
+                Secure = true, // Chỉ hoạt động trên HTTPS
                 SameSite = SameSiteMode.Strict,
                 Expires = DateTime.UtcNow.AddHours(1)
             });
 
-            return RedirectToAction("Index", "Home"); // Chuyển hướng đến trang chủ hoặc một trang khác sau khi đăng nhập thành công
+            return RedirectToAction("Index", "Home");
         }
+
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            // Xóa cookie JWT
+            Response.Cookies.Delete("jwt");
+
+            // Chuyển hướng đến trang chủ hoặc trang đăng nhập
+            return RedirectToAction("Index", "Home"); // Hoặc RedirectToAction("Login", "Auth");
+        }
+
     }
 }

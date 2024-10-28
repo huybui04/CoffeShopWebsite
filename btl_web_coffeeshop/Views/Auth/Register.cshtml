@@ -1,4 +1,5 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model btl_web_coffeeshop.Models.User
 
 @{
     ViewData["Title"] = "Register";
@@ -38,15 +39,21 @@
                             <h4>New here?</h4>
                             <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
                             <form asp-action="Register" method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Username">
+                                    <input asp-for="Username" class="form-control form-control-lg" placeholder="Username" />
+                                    <span asp-validation-for="Username" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
+                                    <input asp-for="Email" class="form-control form-control-lg" placeholder="Email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                                    <input asp-for="PasswordHash" type="password" class="form-control form-control-lg" placeholder="Password" />
+                                    <span asp-validation-for="PasswordHash" class="text-danger"></span>
                                 </div>
+
                                 <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">
@@ -55,7 +62,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-3">
-                                    <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="~/LayoutAdmin/index.html">SIGN UP</a>
+                                    <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">SIGN UP</button>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     Already have an account? <a href="/Auth/Login" class="text-primary">Login</a>
