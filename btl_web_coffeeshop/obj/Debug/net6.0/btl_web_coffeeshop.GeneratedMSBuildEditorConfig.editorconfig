@@ -86,20 +86,76 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/SingleProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/TopNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/_ValidationScriptsPartial.cshtml]
