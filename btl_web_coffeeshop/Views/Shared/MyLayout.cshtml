@@ -1,318 +1,73 @@
-﻿    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Coffee Shop</title>
-        <!-- Link CSS  -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Box Icons -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <!-- Nav -->
-            <div class="nav container">
-                <!-- Logo -->
-                <a href="#" class="logo">Q.Cafe</a>
-                <div class="navbar">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#services" class="nav-link">Service</a>
-                    <a href="#products" class="nav-link">Products</a>
-                    <a href="#team" class="nav-link">Team</a>
-                    <a href="#reviews" class="nav-link">Reviews</a>
-                </div>
-                <div class="nav-icons">
-                    <a href="#"><i class='bx bx-user'></i></a>
-                    <a href="#"><i class='bx bx-shopping-bag'></i></a>
-                    <!-- Menu Icon -->
-                    <div class="menu-icon">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
-                </div>
-            </div>
-        </header>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Coffee House</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Home -->
-        <section class="home container" id="home">
-            <div class="home-text">
-                <h1>
-                    Enjoy a new blend of coffee beans<br>
-                </h1>
-                <p>
-                    Brew or order a Perfect Coffee based on your mood Anywhere, Anytime
-                </p>
-                <a href="#" class="btn">
-                    <span>Shop Now</span>
-                    <i class='bx bx-up-arrow-alt'></i>
-                </a>
-            </div>
-            <!-- Home Image -->
-            <img src="~/images/hero.png" alt="" class="home-img">
-        </section>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
-        <!-- Service -->
-        <section class="services container" id="services">
-            <!-- Heading -->
-            <div class="heading">
-                <h2>
-                    Blend culture, coffee & top <br>
-                    notch service
-                </h2>
-            </div>
-            <div class="service-content">
-                <div class="ser-box">
-                    <img src="images/ser-1.png" alt="">
-                    <p>Equipment</p>
-                </div>
-                <div class="ser-box">
-                    <img src="images/ser-2.png" alt="">
-                    <p>Type Of Coffee</p>
-                </div>
-                <div class="ser-box">
-                    <img src="images/ser-3.png" alt="">
-                    <p>Take A Way</p>
-                </div>
-                <div class="ser-box">
-                    <img src="images/ser-4.png" alt="">
-                    <p>Beans Varient</p>
-                </div>
-                <div class="ser-box">
-                    <img src="images/ser-5.png" alt="">
-                    <p>Pastry</p>
-                </div>
-            </div>
-        </section>
+	<link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="~/css/animate.css">
 
-        <!-- Products -->
-        <section class="products container" id="products">
-            <div class="heading">
-                <h2>Our Top Selling Products</h2>
-                <p>
-                    It takes a lot of heart and hard work at every step to create the best coffee possible, and we know it takes alot of grit to keep your own grind going.
-                </p>
-                <div class="product-content">
-                    <!-- box1 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-1.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Instant Coffee</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                    <!-- box2 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-2.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Black Coffee</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                    <!-- box3 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-3.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Latte</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                    <!-- box4 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-4.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Cappuchino</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                    <!-- box5 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-5.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Expresso</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                    <!-- box6 -->
-                    <div class="product-box">
-                        <i class='bx bx-heart heart-icon'></i>
-                        <img src="images/product-6.png" alt="">
-                        <p>4 Types Available</p>
-                        <h2>Mocha</h2>
-                        <div class="product-info">
-                            <span>$14</span>
-                            <i class='bx bx-shopping-bag'></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+	<link rel="stylesheet" href="~/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="~/css/magnific-popup.css">
 
-        <!-- Team -->
-        <section class="team container" id="team">
-            <div class="heading">
-                <h2>Meet Our Experts</h2>
-            </div>
-            <div class="team-content">
-                <div class="team-box">
-                    <img src="images/team-1.png" alt="">
-                    <h2>Sara Zones</h2>
-                    <span>Co- Lead Chef</span>
-                    <p>Sara Zones is a skilled co-leader chef, known for her creative dishes and collaborative leadership, inspiring her team to excel in culinary artistry. </p>
-                </div>
-                <div class="team-box">
-                    <img src="images/team-2.png" alt="">
-                    <h2>Selena Zones</h2>
-                    <span>Co- Lead Chef</span>
-                    <p>As dedicated roasters, we journey across the globe to build connections with exceptional farmers who cultivate extraordinary coffees </p>
-                </div>
-                <div class="team-box">
-                    <img src="images/team-3.png" alt="">
-                    <h2>Taylor Zones</h2>
-                    <span>Lead Chef</span>
-                    <p>We seek out the world's finest coffee growers, building lasting partnerships to bring you remarkable flavors in every cup.</p>
-                </div>
-            </div>
-        </section>
+	<link rel="stylesheet" href="~/css/aos.css">
 
-        <!-- Reviews -->
-        <section class="review container" id="reviews">
-            <div class="heading">
-                <h2>What Our Customers Say</h2>
-            </div>
-            <!-- Swiper -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="review-box">
-                            <img src="images/review-1.jpg" alt="">
-                            <h2>Jonas Blue</h2>
-                            <span>
-                                The taste of coffee is Stunning,<br>
-                                subtle and smooth. I love it!
-                            </span>
-                            <p>
-                                I absolutely love the coffee here! Each cup is rich, smooth, and full of flavor, clearly crafted with care. The beans are top-quality, and you can taste the difference. From bold espressos to creamy lattes, every drink is consistently perfect. Plus, the cozy atmosphere and friendly staff make it my go-to spot for a great coffee experience. Highly recommend!
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="review-box">
-                            <img src="images/review-2.jpg" alt="">
-                            <h2>Walter White</h2>
-                            <span>
-                                The taste of coffee is Stunning,<br>
-                                subtle and smooth. I love it!
-                            </span>
-                            <p>
-                                The coffee here is outstanding! You can tell they put a lot of effort into selecting and roasting their beans. Each cup is aromatic, perfectly balanced, and absolutely delicious. Whether I’m having a classic pour-over or trying one of their specialty drinks, I'm never disappointed. Great ambiance and warm, knowledgeable staff make this place a true gem for coffee lovers!
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="review-box">
-                            <img src="images/review-3.jpg" alt="">
-                            <h2>Jonathan Nguyen</h2>
-                            <span>
-                                The taste of coffee is Stunning,<br>
-                                subtle and smooth. I love it!
-                            </span>
-                            <p>
-                                This coffee shop is a gem! Every cup has a depth of flavor that's hard to find, with a smoothness that highlights the quality of their beans. You can tell they care about their craft, from sourcing to roasting. The baristas are skilled and welcoming, making every visit a pleasure. Definitely my favorite spot for a truly excellent coffee.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
+	<link rel="stylesheet" href="~/css/ionicons.min.css">
 
-        <!-- Books -->
-        <section class="book container" id="book">
-            <img src="images/book.jpg" alt="" class="book-img">
-            <div class="book-overlay"></div>
-            <div class="book-data">
-                <h2>
-                    Let's book a Table <br>
-                    For you
-                </h2>
-                <form action="book">
-                    <div class="input-box">
-                        <i class='bx bx-phone-call'></i>
-                        <input type="tel" name="" placeholder="Your Phone Number">
-                    </div>
-                    <div class="input-box">
-                        <i class='bx bx-user'></i>
-                        <input type="number" name="" placeholder="Number of People">
-                    </div>
-                    <a href="#" class="book-btn">Book Table</a>
-                </form>
-                <p>We will contact you to confirm your booking</p>
-            </div>
-        </section>
+	<link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="~/css/jquery.timepicker.css">
 
-        <!-- Footer -->
-        <section class="footer container">
-            <div class="footer-box">
-                <a href="#" class="logo">Q.Cafe</a>
-                <div class="social">
-                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
-                    <a href=""><i class='bx bxl-linkedin'></i></a>
-                    <a href=""><i class='bx bxl-twitter'></i></a>
-                </div>
-            </div>
-            <div class="footer-box">
-                <h3>About</h3>
-                <a href="#">Our Story</a>
-                <a href="#">FAQ</a>
-                <a href="#">Careers</a>
-            </div>
-            <div class="footer-box">
-                <h3>Customer's Recourses</h3>
-                <a href="#">Menu</a>
-                <a href="#">Location</a>
-                <a href="#">Support</a>
-            </div>
-            <div class="footer-box">
-                <h3>Services</h3>
-                <a href="#">Payment Options</a>
-                <a href="#">Refunds & Exchanges</a>
-                <a href="#">Limitation Of Liability</a>
-            </div>
-        </section>
-        <p class="copyright">&#169; QCAFE</p>
 
-        <!-- ScrollReview -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <!-- Link to JS -->
-        <script src="~/js/main.js"></script>
+	<link rel="stylesheet" href="~/css/flaticon.css">
+	<link rel="stylesheet" href="~/css/icomoon.css">
+	<link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+	<!--START nav-->
+	 <partial name="TopNav" />
+	<!-- END nav -->
 
-        @RenderSection("Scripts", required: true)
-    </body>
-    </html>
+	<!--Start Slider-->
+	@* <partial name="Slider"> *@
+	<!--End Slider-->
+
+	<main>
+		@RenderBody()
+	</main>
+
+	<!--footer-->
+	<partial name ="Footer">
+	<!--end footer-->
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+		<script src="~/js/jquery.min.js"></script>
+		<script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="~/js/popper.min.js"></script>
+		<script src="~/js/bootstrap.min.js"></script>
+		<script src="~/js/jquery.easing.1.3.js"></script>
+		<script src="~/js/jquery.waypoints.min.js"></script>
+		<script src="~/js/jquery.stellar.min.js"></script>
+		<script src="~/js/owl.carousel.min.js"></script>
+		<script src="~/js/jquery.magnific-popup.min.js"></script>
+		<script src="~/js/aos.js"></script>
+		<script src="~/js/jquery.animateNumber.min.js"></script>
+		<script src="~/js/bootstrap-datepicker.js"></script>
+		<script src="~/js/jquery.timepicker.min.js"></script>
+		<script src="~/js/scrollax.min.js"></script>
+		<script src="~/https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="~/js/google-map.js"></script>
+		<script src="~/js/main.js"></script>
+
+		@RenderSection("scripts", required: false)
+</body>
+</html>

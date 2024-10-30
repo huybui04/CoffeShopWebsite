@@ -9,47 +9,151 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = btl_web_coffeeshop
 build_property.RootNamespace = btl_web_coffeeshop
-build_property.ProjectDir = D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\btl_web_coffeeshop\
+build_property.ProjectDir = F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\btl_web_coffeeshop
+build_property.MSBuildProjectDirectory = F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Home/Index.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Home/MyView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVZpZXcuY3NodG1s
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Home/Privacy.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Shared/Error.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/SingleProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Shared/MyLayout.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1haW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/TopNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/_ViewImports.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/_ViewStart.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester_1_2024_2025/LTWeb/Website-for-coffeeshop/btl_web_coffeeshop/Views/Shared/_Layout.cshtml]
+[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tt3v32mp4j

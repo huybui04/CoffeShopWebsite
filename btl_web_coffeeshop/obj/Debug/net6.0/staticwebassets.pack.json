@@ -1,936 +1,1624 @@
 {
   "Files": [
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\btl_web_coffeeshop.bundle.scp.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\btl_web_coffeeshop.bundle.scp.css",
       "PackagePath": "staticwebassets\\btl_web_coffeeshop.bundle.scp.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\.gitignore",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\.gitignore",
       "PackagePath": "staticwebassets\\LayoutAdmin\\.gitignore"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\CHANGELOG.md",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\LayoutAdmin\\CHANGELOG.md"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\LICENSE",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\LICENSE",
       "PackagePath": "staticwebassets\\LayoutAdmin"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd",
       "PackagePath": "staticwebassets\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\README.md",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\README.md",
       "PackagePath": "staticwebassets\\LayoutAdmin\\README.md"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\css\\style.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\css\\style.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\css\\style.css.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face1.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face1.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face10.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face10.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face10.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face11.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face11.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face11.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face12.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face12.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face12.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face13.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face13.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face13.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face14.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face14.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face14.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face15.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face15.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face15.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face16.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face16.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face16.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face17.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face17.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face17.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face18.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face18.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face18.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face19.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face19.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face19.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face2.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face2.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face2.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face20.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face20.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face20.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face21.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face21.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face21.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face22.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face22.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face22.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face23.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face23.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face23.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face24.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face24.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face24.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face25.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face25.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face25.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face26.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face26.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face26.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face27.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face27.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face27.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face3.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face3.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face3.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face4.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face4.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face4.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face5.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face5.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face5.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face6.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face6.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face6.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face7.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face7.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face7.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face8.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face8.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face8.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face9.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face9.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face9.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.ico",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.ico"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\logo-mini.svg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\logo-mini.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo-mini.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\logo.svg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\logo.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\blue.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\blue.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\blue.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\dark.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\dark.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\dark.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\flag.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\flag.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\flag.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\green.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\green.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\green.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\red.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\red.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\red.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\yellow.png",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\yellow.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\yellow.png"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\chart.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\chart.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\chart.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\dashboard.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\dashboard.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\file-upload.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\file-upload.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\file-upload.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\hoverable-collapse.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\hoverable-collapse.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\hoverable-collapse.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\jquery.cookie.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\jquery.cookie.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\jquery.cookie.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\misc.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\misc.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\misc.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\off-canvas.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\off-canvas.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\off-canvas.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\todo.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\todo.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todo.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\todolist.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\js\\todolist.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todolist.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_dashboard.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_dashboard.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_dashboard.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_demo.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_demo.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_demo.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_fonts.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_fonts.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_fonts.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_footer.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_footer.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_footer.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_functions.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_functions.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_layouts.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_layouts.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_layouts.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_misc.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_misc.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_misc.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_navbar.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_navbar.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_reset.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_reset.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_reset.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_sidebar.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_sidebar.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_sidebar.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_typography.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_typography.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_typography.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_utilities.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_utilities.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_variables.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_variables.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_widget-grid.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\_widget-grid.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_widget-grid.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_badges.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_badges.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_badges.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_cards.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_cards.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_cards.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_forms.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_forms.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_forms.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_icons.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_icons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_icons.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_lists.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_lists.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_lists.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_preview.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_preview.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_preview.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_tables.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_tables.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_tables.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\style.scss",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\scss\\style.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\style.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\inject.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\inject.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\inject.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\serve.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\serve.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\serve.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\vendors.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulp-tasks\\vendors.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\vendors.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulpfile.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\gulpfile.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulpfile.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\index.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\index.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\index.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\package.json",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\package.json",
       "PackagePath": "staticwebassets\\LayoutAdmin\\package.json"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\charts\\chartjs.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\charts\\chartjs.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\charts\\chartjs.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\forms\\basic_elements.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\forms\\basic_elements.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\forms\\basic_elements.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\icons\\mdi.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\icons\\mdi.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\icons\\mdi.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\blank-page.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\blank-page.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\blank-page.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\error-404.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\error-404.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-404.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\error-500.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\error-500.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-500.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\login.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\login.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\login.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\register.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\samples\\register.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\register.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\tables\\basic-table.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\tables\\basic-table.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\tables\\basic-table.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\ui-features\\buttons.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\ui-features\\buttons.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\buttons.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\ui-features\\typography.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\pages\\ui-features\\typography.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\typography.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_footer.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_footer.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_footer.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_navbar.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_navbar.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_navbar.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_sidebar.html",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\partials\\_sidebar.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_sidebar.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\screenshot.jpg",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\LayoutAdmin\\screenshot.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\screenshot.jpg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\style.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\favicon.ico",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\book.jpg",
-      "PackagePath": "staticwebassets\\images\\book.jpg"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\backup.txt"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\hero.png",
-      "PackagePath": "staticwebassets\\images\\hero.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-1.png",
-      "PackagePath": "staticwebassets\\images\\product-1.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-2.png",
-      "PackagePath": "staticwebassets\\images\\product-2.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-3.png",
-      "PackagePath": "staticwebassets\\images\\product-3.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\Flaticon.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-4.png",
-      "PackagePath": "staticwebassets\\images\\product-4.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\_flaticon.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-5.png",
-      "PackagePath": "staticwebassets\\images\\product-5.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\product-6.png",
-      "PackagePath": "staticwebassets\\images\\product-6.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\font\\flaticon.html"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\review-1.jpg",
-      "PackagePath": "staticwebassets\\images\\review-1.jpg"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\license\\license.pdf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\review-2.jpg",
-      "PackagePath": "staticwebassets\\images\\review-2.jpg"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\review-3.jpg",
-      "PackagePath": "staticwebassets\\images\\review-3.jpg"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\ser-1.png",
-      "PackagePath": "staticwebassets\\images\\ser-1.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\ser-2.png",
-      "PackagePath": "staticwebassets\\images\\ser-2.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon\\icomoon.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\ser-3.png",
-      "PackagePath": "staticwebassets\\images\\ser-3.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\css\\_ionicons.scss",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\css\\_ionicons.scss"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\ser-4.png",
-      "PackagePath": "staticwebassets\\images\\ser-4.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\ser-5.png",
-      "PackagePath": "staticwebassets\\images\\ser-5.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.eot"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\team-1.png",
-      "PackagePath": "staticwebassets\\images\\team-1.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.svg"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\team-2.png",
-      "PackagePath": "staticwebassets\\images\\team-2.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.ttf"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\team-3.png",
-      "PackagePath": "staticwebassets\\images\\team-3.png"
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.woff"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\main.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\ionicons\\fonts\\ionicons.woff2"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\open-iconic\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.eot"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\open-iconic\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.otf"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\open-iconic\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.svg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\open-iconic\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.ttf"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\fonts\\open-iconic\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\fonts\\open-iconic\\open-iconic.woff"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\bg_4.jpg",
+      "PackagePath": "staticwebassets\\images\\bg_4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\burger-1.jpg",
+      "PackagePath": "staticwebassets\\images\\burger-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\burger-2.jpg",
+      "PackagePath": "staticwebassets\\images\\burger-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\burger-3.jpg",
+      "PackagePath": "staticwebassets\\images\\burger-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-1.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-2.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-3.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-4.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-5.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-5.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dessert-6.jpg",
+      "PackagePath": "staticwebassets\\images\\dessert-6.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-1.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-11.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-11.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-2.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-3.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-4.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-5.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-5.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-6.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-6.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-7.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-7.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\dish-8.jpg",
+      "PackagePath": "staticwebassets\\images\\dish-8.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-1.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-2.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-3.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-4.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-5.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-5.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-6.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-6.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-7.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-7.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-8.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-8.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\drink-9.jpg",
+      "PackagePath": "staticwebassets\\images\\drink-9.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\images\\image_1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\images\\image_2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\images\\image_3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\images\\image_4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\images\\image_5.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\images\\image_6.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\loc.png",
+      "PackagePath": "staticwebassets\\images\\loc.png"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-1.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\images\\menu-4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\images\\person_2.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\images\\person_3.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\images\\person_4.jpg"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\js\\google-map.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.timepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.timepicker.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\range.js",
+      "PackagePath": "staticwebassets\\js\\range.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollax.min.js"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.btl_web_coffeeshop.Microsoft.AspNetCore.StaticWebAssets.props",
