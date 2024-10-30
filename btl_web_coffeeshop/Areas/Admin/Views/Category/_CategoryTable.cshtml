@@ -1,0 +1,57 @@
+﻿@model btl_web_coffeeshop.Utilities.PagedList<btl_web_coffeeshop.Models.Category>
+
+<div id="categoryTable">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Items.First().Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Items.First().Description)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.CategoryId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div>
+        @if (Model.TotalPages > 1)
+        {
+            // Previous Button
+            if (Model.PageIndex > 1)
+            {
+                <button class="btn btn-secondary" onclick="loadPage(@(Model.PageIndex - 1))">Previous</button>
+            }
+
+            // Page Number Links
+            for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <button class="@(i == Model.PageIndex ? "btn btn-primary" : "btn btn-light")" onclick="loadPage(@i)">@i</button>
+            }
+
+            // Next Button
+            if (Model.PageIndex < Model.TotalPages)
+            {
+                <button class="btn btn-secondary" onclick="loadPage(@(Model.PageIndex + 1))">Next</button>
+            }
+        }
+    </div>
+</div>
