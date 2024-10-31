@@ -8,7 +8,6 @@ using btl_web_coffeeshop.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure JWT Authentication
-// Configure JWT Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

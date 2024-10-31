@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\btl_web_coffeeshop.props" />
-</Project>

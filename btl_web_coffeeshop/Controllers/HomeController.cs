@@ -1,60 +1,96 @@
 ﻿using btl_web_coffeeshop.Models;
+using btl_web_coffeeshop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace btl_web_coffeeshop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+		private readonly CoffeeShopDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        //Home page
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        //Menu page
-        public IActionResult Menu()
+		public HomeController(CoffeeShopDbContext context)
 		{
-			return View();
+			_context = context;
+		}
+
+		//Home page
+		//[Route("")]
+		public async Task<IActionResult> Index()
+        {
+			var categories = await _context.Categories
+		   .Include(c => c.Products)
+		   .ToListAsync();
+
+			var bestSellerProducts = await _context.Products
+								.Where(p => p.Name == "Iced Milk Coffee" ||
+											p.Name == "Lychee Hi-Tea" ||
+											p.Name == "Butter Croissant" ||
+											p.Name == "Cheese Floss")
+								.ToListAsync();
+
+			var viewModel = new HomeViewModel
+			{
+				CategoryViewModels = categories.Select(c => new CategoryViewModel
+				{
+					CategoryId = c.CategoryId,
+					Name = c.Name,
+					Products = c.Products.Take(3).ToList()
+				}).ToList(),
+				BestSellerProducts = bestSellerProducts,
+			};
+
+			return View(viewModel);
+		}
+
+		//Menu page
+		[Route("Menu")]
+		public async Task<IActionResult> Menu()
+		{
+			var categories = await _context.Categories
+				.Include(c => c.Products)
+				.ToListAsync();
+
+			var categoryViewModels = categories.Select(c => new CategoryViewModel
+			{
+				Name = c.Name,
+				Products = c.Products.ToList()
+			}).ToList();
+
+			return View(categoryViewModels);
 		}
 
 		//Services
+		[Route("Services")]
 		public IActionResult Services()
 		{
 			return View();
 		}
 
 		//Blog
+		[Route("Blog")]
 		public IActionResult Blog()
         {
             return View();
         }
 
 		//About
+		[Route("About")]
 		public IActionResult About()
 		{
 			return View();
 		}
 
-        //Shop
-        public IActionResult Shop() {
-			return View();
-		}
-
 		//Contact
+		[Route("Contact")]
 		public IActionResult Contact()
 		{
-			return View();
+			return View();  
 		}
 
-        //Cart
+		//Cart
+		[Route("Cart")]
         public IActionResult Cart()
         {
             return View();
@@ -66,16 +102,31 @@ namespace btl_web_coffeeshop.Controllers
             return View();
         }
 
-		//single product
-		public IActionResult SingleProduct()
+		//Product Details
+		[Route("Detail/ProductDetail/{id}")]
+		public async Task<IActionResult> SingleProduct(int id)
 		{
-			return View();
-		}
+			var product = await _context.Products
+				.Include(p => p.Category)
+				.FirstOrDefaultAsync(p => p.ProductId == id);
 
-		//checkout
-		public IActionResult Checkout()
-		{
-			return View();
+			if (product == null)
+			{
+				return NotFound();
+			}
+
+			var relatedProducts = await _context.Products
+								.Where(p => p.CategoryId == product.CategoryId && p.ProductId != id)
+								.Take(4)
+								.ToListAsync();
+
+			var viewModel = new ProductDetailViewModel
+			{
+				Product = product,
+				RelatedProducts = relatedProducts
+			};
+
+			return View(viewModel);
 		}
 
 		public IActionResult Privacy()

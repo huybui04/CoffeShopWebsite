@@ -1,4 +1,6 @@
-﻿@{
+﻿@model btl_web_coffeeshop.ViewModels.ProductDetailViewModel
+
+@{
     ViewData["Title"] = "Menu Page";
     Layout = "~/Views/Shared/MyLayout.cshtml";
 }
@@ -24,15 +26,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-5 ftco-animate">
-                <a href="images/menu-2.jpg" class="image-popup"><img src="images/menu-2.jpg" class="img-fluid" alt="Colorlib Template"></a>
+                <a href="@Model.Product.ImageUrl" class="image-popup"><img src="@Model.Product.ImageUrl" class="img-fluid" alt="@Model.Product.Name"></a>
             </div>
             <div class="col-lg-6 product-details pl-md-5 ftco-animate">
-                <h3>Creamy Latte Coffee</h3>
-                <p class="price"><span>$4.90</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <p>
-                    On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
-                </p>
+                <h3>@Model.Product.Name</h3>
+                <p class="price"><span>@Model.Product.Price.ToString("C")</span></p>
+                <p>@Model.Product.Description</p>
                 <div class="row mt-4">
                     <div class="col-md-6">
                         <div class="form-group d-flex">
@@ -68,6 +67,7 @@
     </div>
 </section>
 
+<!--Related Products-->
 <section class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -78,50 +78,22 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url(images/menu-1.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+            @foreach (var relatedProduct in Model.RelatedProducts)
+            {
+                <div class="col-md-3">
+                    <div class="product">
+                        <a href="@Url.Action("SingleProduct", "Home", new { id = relatedProduct.ProductId })" class="img-prod"><img class="img-fluid" src="@relatedProduct.ImageUrl" alt="@relatedProduct.Name"></a>
+                        <div class="text py-3 px-3">
+                            <h3><a href="@Url.Action("SingleProduct", "Home", new { id = relatedProduct.ProductId })">@relatedProduct.Name</a></h3>
+                            <div class="d-flex">
+                                <div class="pricing">
+                                    <p class="price"><span>@relatedProduct.Price.ToString("C")</span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url(images/menu-2.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url(images/menu-3.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="menu-entry">
-                    <a href="#" class="img" style="background-image: url(images/menu-4.jpg);"></a>
-                    <div class="text text-center pt-4">
-                        <h3><a href="#">Coffee Capuccino</a></h3>
-                        <p>A small river named Duden flows by their place and supplies</p>
-                        <p class="price"><span>$5.90</span></p>
-                        <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>

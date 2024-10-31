@@ -6,6 +6,10 @@ namespace btl_web_coffeeshop.Models;
 
 public partial class CoffeeShopDbContext : DbContext
 {
+    private readonly string CoffeeShopDB = "Data Source=localhost,1444;Initial Catalog=CoffeeShopDB;User ID=sa;Password=@Huy27112004;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+    //private readonly string minhquan_conn = "Data Source=LAPTOP-3JRHUEFF\\SQLEXPRESS01;Initial Catalog=CoffeeShopDB;Persist Security Info=True;User ID=sa;Password=minhquan2004;Trust Server Certificate=True";
+
+
     public CoffeeShopDbContext()
     {
     }
@@ -32,8 +36,7 @@ public partial class CoffeeShopDbContext : DbContext
     public virtual DbSet<UserRole> UserRoles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=localhost,1444;Initial Catalog=CoffeeShopDB;User ID=sa;Password=@Huy27112004;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        => optionsBuilder.UseSqlServer(CoffeeShopDB);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
