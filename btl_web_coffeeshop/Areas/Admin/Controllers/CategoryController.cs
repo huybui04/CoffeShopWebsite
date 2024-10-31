@@ -1,4 +1,5 @@
 ﻿using btl_web_coffeeshop.Models;
+using btl_web_coffeeshop.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,15 +11,27 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
     [Authorize(Policy = "AdminOnly")]
     public class CategoryController : Controller
     {
-        CoffeeShopDbContext db = new CoffeeShopDbContext();
+        private readonly CoffeeShopDbContext db;
+
+        public CategoryController(CoffeeShopDbContext _db)
+        {
+            db = _db;
+        }
 
         [Route("")]
         [Route("index")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 5)
         {
-            var categories = db.Categories.ToList();
-            return View(categories);
+            var categories = await db.Categories.ToPagedListAsync(pageIndex, pageSize);
+
+            if (Request.IsAjax())
+            {
+                return PartialView("_CategoryTable", categories); // categories là kiểu PagedList<Category>
+            }
+
+            return View(categories); // Trả về view với kiểu PagedList<Category>
         }
+
 
         [Route("Create")]
         [HttpGet]

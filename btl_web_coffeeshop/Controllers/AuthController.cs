@@ -41,16 +41,25 @@ namespace btl_web_coffeeshop.Controllers
                 return View(user);
             }
 
-            // Hash mật khẩu
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
-            user.RoleId = 2; // Gán vai trò User (2 là ID cho User)
+            // Retrieve the RoleId for "User" from UserRoles table
+            var userRole = await _context.UserRoles.FirstOrDefaultAsync(r => r.RoleName == "User");
+            if (userRole == null)
+            {
+                ModelState.AddModelError(string.Empty, "Vai trò người dùng không tồn tại.");
+                return View(user);
+            }
 
-            // Lưu người dùng
+            // Hash the password
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            user.RoleId = userRole.RoleId; // Assign the RoleId for "User"
+
+            // Save the user
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Login");
         }
+
 
         // GET: Auth/Login
         [HttpGet("login")]

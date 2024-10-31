@@ -1,4 +1,4 @@
-﻿@model IEnumerable<btl_web_coffeeshop.Models.Product>
+﻿@model btl_web_coffeeshop.Utilities.PagedList<btl_web_coffeeshop.Models.Product>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
@@ -9,61 +9,28 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
 
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedDate)
-            </td>
-                <td>
-                    @if (item.Category != null)
-                    {
-                        @item.Category.Name
-                    }
-                    else
-                    {
-                        @:Chưa có danh mục
-                    }
-                </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
-            </td>
-        </tr>
+<div id="productTableContainer">
+    @Html.Partial("_ProductTable", Model) <!-- Load the initial table -->
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function loadPage(pageIndex) {
+            $.ajax({
+                url: '@Url.Action("Index")',
+                type: 'GET',
+                data: { pageIndex: pageIndex },
+                success: function (result) {
+                    $('#productTableContainer').html(result); // Replace the table with the new data
+                },
+                error: function (xhr, status, error) {
+                    console.error("AJAX request failed:", status, error);
+                }
+            });
+        }
+    </script>
 }
-    </tbody>
-</table>
