@@ -6,6 +6,5 @@ namespace btl_web_coffeeshop.ViewModels
 	{
 		public IEnumerable<CategoryViewModel> CategoryViewModels { get; set; }
 		public List<Product> BestSellerProducts { get; set; }
-		public IEnumerable<Product> DiscoverProducts { get; set; }
 	}
 }
