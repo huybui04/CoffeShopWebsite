@@ -1,28 +1,68 @@
 ﻿using btl_web_coffeeshop.Models;
+using btl_web_coffeeshop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace btl_web_coffeeshop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+		private readonly CoffeeShopDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        //Home page
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        //Menu page
-        public IActionResult Menu()
+		public HomeController(CoffeeShopDbContext context)
 		{
-			return View();
+			_context = context;
+		}
+
+		//Home page
+		public async Task<IActionResult> Index()
+        {
+			var categories = await _context.Categories
+		   .Include(c => c.Products)
+		   .ToListAsync();
+
+			var bestSellerProducts = await _context.Products
+								.Where(p => p.Name == "Iced Milk Coffee" ||
+											p.Name == "Lychee Hi-Tea" ||
+											p.Name == "Butter Croissant" ||
+											p.Name == "Cheese Floss")
+								.ToListAsync();
+
+			var discoverProducts = await _context.Products
+				.OrderByDescending(p => p.CreatedDate)
+				.Take(10)
+				.ToListAsync();
+
+			var viewModel = new HomeViewModel
+			{
+				CategoryViewModels = categories.Select(c => new CategoryViewModel
+				{
+					CategoryId = c.CategoryId,
+					Name = c.Name,
+					Products = c.Products.ToList()
+				}),
+				BestSellerProducts = bestSellerProducts,
+				DiscoverProducts = discoverProducts
+			};
+
+			return View(viewModel);
+		}
+
+		//Menu page
+		public async Task<IActionResult> Menu()
+		{
+			var categories = await _context.Categories
+				.Include(c => c.Products)
+				.ToListAsync();
+
+			var categoryViewModels = categories.Select(c => new CategoryViewModel
+			{
+				Name = c.Name,
+				Products = c.Products.ToList()
+			}).ToList();
+
+			return View(categoryViewModels);
 		}
 
 		//Services
@@ -51,7 +91,7 @@ namespace btl_web_coffeeshop.Controllers
 		//Contact
 		public IActionResult Contact()
 		{
-			return View();
+			return View();  
 		}
 
         //Cart
@@ -68,12 +108,6 @@ namespace btl_web_coffeeshop.Controllers
 
 		//single product
 		public IActionResult SingleProduct()
-		{
-			return View();
-		}
-
-		//checkout
-		public IActionResult Checkout()
 		{
 			return View();
 		}

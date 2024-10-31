@@ -82,10 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,10 +104,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/Shop.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/workspace/visual_studio_src/CoffeShopWebsite/btl_web_coffeeshop/Views/Home/SingleProduct.cshtml]
