@@ -393,8 +393,6 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\btl_web_coffeeshop.runtimeconfig.json
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\btl_web_coffeeshop.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\btl_web_coffeeshop.pdb
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Azure.Core.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Azure.Identity.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\BCrypt.Net-Next.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Humanizer.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\MessagePack.dll
@@ -419,25 +417,14 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -447,7 +434,6 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Mono.TextTemplating.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\NuGet.Common.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -458,7 +444,6 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\NuGet.ProjectModel.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\NuGet.Protocol.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\NuGet.Versioning.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.CodeDom.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Composition.Convention.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -468,13 +453,10 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Formats.Asn1.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Memory.Data.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Runtime.Caching.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Text.Json.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\af\Humanizer.resources.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\ar\Humanizer.resources.dll
@@ -627,7 +609,6 @@ D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_co
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\obj\Debug\net6.0\btl_web_coffeeshop.csproj.AssemblyReference.cache
 D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\obj\Debug\net6.0\btl_web_coffeeshop.GeneratedMSBuildEditorConfig.editorconfig
@@ -905,3 +886,4 @@ F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop\obj\Debug\net
 F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop\obj\Debug\net6.0\btl_web_coffeeshop.genruntimeconfig.cache
 F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop\obj\Debug\net6.0\ref\btl_web_coffeeshop.dll
 F:\workspace\visual_studio_src\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Semester_1_2024_2025\LTWeb\Website-for-coffeeshop\CoffeShopWebsite\btl_web_coffeeshop\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
