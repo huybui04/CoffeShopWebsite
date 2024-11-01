@@ -45,7 +45,7 @@ namespace btl_web_coffeeshop.Controllers
 		}
 
 		//Menu page
-		[Route("Menu")]
+		//[Route("Menu")]
 		public async Task<IActionResult> Menu()
 		{
 			var categories = await _context.Categories
@@ -62,38 +62,70 @@ namespace btl_web_coffeeshop.Controllers
 		}
 
 		//Services
-		[Route("Services")]
+		//[Route("Services")]
 		public IActionResult Services()
 		{
 			return View();
 		}
 
 		//Blog
-		[Route("Blog")]
+		//[Route("Blog")]
 		public IActionResult Blog()
         {
             return View();
         }
 
 		//About
-		[Route("About")]
+		//[Route("About")]
 		public IActionResult About()
 		{
 			return View();
 		}
 
 		//Contact
-		[Route("Contact")]
+		//[Route("Contact")]
 		public IActionResult Contact()
 		{
 			return View();  
 		}
 
 		//Cart
-		[Route("Cart")]
-        public IActionResult Cart()
+		//[Route("Cart")]
+		public async Task<IActionResult> Cart()
         {
-            return View();
+            var cartItemCount = _context.CartItems.Sum(item => item.Quantity);
+            ViewBag.CartItemCount = cartItemCount;
+
+            var cartItems = await _context.CartItems
+				.Include(ci => ci.Product)
+				.ThenInclude(p => p.Category)
+				.ToListAsync();
+
+            var categoryIds = cartItems.Select(ci => ci.Product.CategoryId).Distinct().ToList();
+
+            var relatedProducts = await _context.Products
+                .Where(p => categoryIds.Contains(p.CategoryId))
+                .OrderBy(p => Guid.NewGuid())
+                .Take(4)
+                .ToListAsync();
+
+            var viewModel = new CartViewModel
+            {
+				TotalQuantity = cartItemCount,
+				TotalPrice = cartItems.Sum(i => i.Quantity * i.Price),
+				CartItems = cartItems,
+                RelatedProducts = relatedProducts
+            };
+
+            return View(viewModel);
+        }
+
+
+        [HttpPost]
+        public IActionResult Checkout(CartViewModel model)
+        {
+            // Pass the cart data to the Checkout view
+            return View(model);
         }
 
         //Login

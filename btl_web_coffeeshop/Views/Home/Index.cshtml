@@ -289,7 +289,10 @@
 							<h3><a href="@Url.Action("SingleProduct", "Home", new { id = product.ProductId })">@product.Name</a></h3>
                             <p>@product.Description</p>
                             <p class="price"><span>@product.Price.ToString("C")</span></p>
-                            <p><a href="#" class="btn btn-primary btn-outline-primary">Add to Cart</a></p>
+							<form asp-action="AddToCart" asp-controller="Cart" method="post">
+								<input type="hidden" name="productId" value="@product.ProductId" />
+								<button type="submit" class="btn btn-primary">Add to cart</button>
+							</form>
                         </div>
                     </div>
                 </div>
@@ -370,7 +373,10 @@
 														<h3><a href="@Url.Action("SingleProduct", "Home", new { id = product.ProductId })">@product.Name</a></h3>
 														<p>@product.Description</p>
 														<p class="price"><span>@product.Price.ToString("C")</span></p>
-														<p><a href="#" class="btn btn-primary btn-outline-primary">Add to cart</a></p>
+														<form asp-action="AddToCart" asp-controller="Cart" method="post">
+															<input type="hidden" name="productId" value="@product.ProductId" />
+															<button type="submit" class="btn btn-primary">Add to cart</button>
+														</form>
 													</div>
 												</div>
 											</div>

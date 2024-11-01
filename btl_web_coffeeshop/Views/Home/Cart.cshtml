@@ -1,19 +1,28 @@
-﻿@model IEnumerable<btl_web_coffeeshop.Models.CartItem>
+﻿@model btl_web_coffeeshop.ViewModels.CartViewModel
 
 @{
     ViewData["Title"] = "Cart Page";
     Layout = "~/Views/Shared/MyLayout.cshtml";
+    
+    //Tổng tiền sp trong cart
+    decimal subtotalPrice = Model.CartItems.Sum(item => item.Price * item.Quantity);
+    decimal deliveryPrice = 5;
+    decimal totalPrice = subtotalPrice + deliveryPrice;
 }
 
+
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url(~/wwwroot/images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+
+    <div class="slider-item" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
             <div class="row slider-text justify-content-center align-items-center">
+
                 <div class="col-md-7 col-sm-12 text-center ftco-animate">
                     <h1 class="mb-3 mt-5 bread">Cart</h1>
                     <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Cart</span></p>
                 </div>
+
             </div>
         </div>
     </div>
@@ -36,8 +45,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (var item in Model)
-                            {
+                            <tr class="text-center">
+                                @foreach (var item in Model.CartItems)
+                                {
                                 <tr class="text-center">
                                     <td class="product-remove"><a href="#"><span class="icon-close"></span></a></td>
                                     <td class="image-prod"><div class="img" style="background-image:url(@item.Product.ImageUrl);"></div></td>
@@ -45,22 +55,77 @@
                                         <h3>@item.Product.Name</h3>
                                         <p>@item.Product.Description</p>
                                     </td>
-                                    <td class="price">@item.Price.ToString("C")</td>
+                                    <td class="price">$@item.Price</td>
                                     <td class="quantity">
                                         <div class="input-group mb-3">
                                             <input type="text" name="quantity" class="quantity form-control input-number" value="@item.Quantity" min="1" max="100">
                                         </div>
                                     </td>
-                                    <td class="total">@((item.Price * item.Quantity).ToString("C"))</td>
+                                    <td class="total">$@(item.Price * item.Quantity)</td>
                                 </tr>
-                            }
+                                }
+                            </tr><!-- END TR-->
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+        <div class="row justify-content-end">
+            <div class="col col-lg-3 col-md-6 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Cart Totals</h3>
+                    <p class="d-flex">
+                        <span>Subtotal</span>
+                        <span>$@subtotalPrice</span>
+                    </p>
+                    <p class="d-flex">
+                        <span>Delivery</span>
+                        <span>$@deliveryPrice</span>
+                    </p>
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Total</span>
+                        <span>$@totalPrice</span>
+                    </p>
+                </div>
+                <p class="text-center"><a href="@Url.Action("Checkout", "Home")" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+            </div>
+        </div>
     </div>
 </section>
+
+<!--Related Item-->
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section ftco-animate text-center">
+                <span class="subheading">Discover</span>
+                <h2 class="mb-4">Related products</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var relatedProduct in Model.RelatedProducts)
+            {
+                <div class="col-md-3">
+                    <div class="product">
+                        <a href="@Url.Action("SingleProduct", "Home", new { id = relatedProduct.ProductId })" class="img-prod"><img class="img-fluid" src="@relatedProduct.ImageUrl" alt="@relatedProduct.Name"></a>
+                        <div class="text text-center py-3 px-3">
+                            <h3><a href="@Url.Action("SingleProduct", "Home", new { id = relatedProduct.ProductId })">@relatedProduct.Name</a></h3>
+                            <p>@relatedProduct.Description</p>
+                            <p class="price"><span>@relatedProduct.Price.ToString("C")</span></p>
+                            <form asp-action="AddToCart" asp-controller="Cart" method="post">
+                                <input type="hidden" name="productId" value="@relatedProduct.ProductId" />
+                                <button type="submit" class="btn btn-primary">Add to cart</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
 
 @section scripts {
 	<script src="~/js/jquery.min.js"></script>
@@ -80,4 +145,34 @@
 	<script src="~/https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="~/js/google-map.js"></script>
 	<script src="~/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.remove-item').click(function (e) {
+                e.preventDefault();
+                var row = $(this).closest('tr');
+                var productId = row.data('id');
+
+                $.ajax({
+                    url: '@Url.Action("RemoveFromCart", "Cart")',
+                    type: 'POST',
+                    data: {
+                        id: productId,
+                        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            row.remove();
+                            // Optionally, update the total price here
+                        } else {
+                            alert('Failed to remove product from cart.');
+                        }
+                    },
+                    error: function () {
+                        alert('Error occurred while removing product from cart.');
+                    }
+                });
+            });
+        });
+    </script>
 }
