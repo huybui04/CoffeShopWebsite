@@ -45,26 +45,26 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="text-center">
-                                @foreach (var item in Model.CartItems)
-                                {
+                            @foreach (var item in Model.CartItems)
+                            {
                                 <tr class="text-center">
-                                    <td class="product-remove"><a href="#"><span class="icon-close"></span></a></td>
+                                    <td class="product-remove">
+                                        <a href="#" class="remove-from-cart" data-id="@item.CartItemId"><span class="icon-close"></span></a>
+                                    </td>
                                     <td class="image-prod"><div class="img" style="background-image:url(@item.Product.ImageUrl);"></div></td>
                                     <td class="product-name">
                                         <h3>@item.Product.Name</h3>
                                         <p>@item.Product.Description</p>
                                     </td>
-                                    <td class="price">$@item.Price</td>
+                                    <td class="price">@item.Price.ToString("C")</td>
                                     <td class="quantity">
                                         <div class="input-group mb-3">
-                                            <input type="text" name="quantity" class="quantity form-control input-number" value="@item.Quantity" min="1" max="100">
+                                            <input type="number" name="quantity" class="quantity form-control input-number" value="@item.Quantity" min="1" max="100" data-id="@item.CartItemId">
                                         </div>
                                     </td>
-                                    <td class="total">$@(item.Price * item.Quantity)</td>
+                                    <td class="total">@((item.Price * item.Quantity).ToString("C"))</td>
                                 </tr>
-                                }
-                            </tr><!-- END TR-->
+                            }
                         </tbody>
                     </table>
                 </div>
@@ -88,11 +88,12 @@
                         <span>$@totalPrice</span>
                     </p>
                 </div>
-                <p class="text-center"><a href="@Url.Action("Checkout", "Home")" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+                <p class="text-center"><a href="#" class="btn btn-primary py-3 px-4" id="proceedToCheckout">Proceed to Checkout</a></p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!--Related Item-->
 <section class="ftco-section">
@@ -146,33 +147,119 @@
 	<script src="~/js/google-map.js"></script>
 	<script src="~/js/main.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script>
+        function checkout() {
+            Swal.fire("Checkout", "Thank you for your order!", "success").then(() => {
+                // Xóa các sản phẩm trong giỏ hàng
+                clearCart();
+            });
+        }
+
+        function clearCart() {
+            $.ajax({
+                url: '@Url.Action("ClearCart", "Cart")',
+                type: 'POST',
+                success: function (result) {
+                    // Reload the page to reflect the empty cart
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error clearing the cart:', error);
+                }
+            });
+        }
+
+        function createNewCart() {
+            // Logic để tạo giỏ hàng mới
+            console.log('New cart created');
+        }
+    </script>
+
+    <script>
+        document.getElementById('proceedToCheckout').addEventListener('click', function (event) {
+            event.preventDefault();
+            Swal.fire({
+                icon: "question",
+                title: "Checkout",
+                text: "Do you have an account or you want to checkout without login?",
+                showDenyButton: true,
+                showCancelButton: true,
+                denyButtonColor: "#3085d6",
+                confirmButtonText: "Login",
+                denyButtonText: `Checkout without login`
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "/Auth/Login";
+                } else if (result.isDenied) {
+                    Swal.fire({
+                        title: 'Checkout Form',
+                        html: `
+                            <input type="text" id="name" class="swal2-input" placeholder="Name">
+                            <input type="email" id="email" class="swal2-input" placeholder="Email">
+                            <input type="text" id="address" class="swal2-input" placeholder="Address">
+                            <input type="text" id="phone" class="swal2-input" placeholder="Phone">
+                        `,
+                        focusConfirm: false,
+                        preConfirm: () => {
+                            const name = Swal.getPopup().querySelector('#name').value;
+                            const email = Swal.getPopup().querySelector('#email').value;
+                            const address = Swal.getPopup().querySelector('#address').value;
+                            const phone = Swal.getPopup().querySelector('#phone').value;
+                            if (!name || !email || !address || !phone) {
+                                Swal.showValidationMessage(`Please enter all fields`);
+                            }
+                            return { name: name, email: email, address: address, phone: phone };
+                        }
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            checkout();
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+
     <script>
         $(document).ready(function () {
-            $('.remove-item').click(function (e) {
+            $('.remove-from-cart').click(function (e) {
                 e.preventDefault();
-                var row = $(this).closest('tr');
-                var productId = row.data('id');
-
+                var cartItemId = $(this).data('id');
                 $.ajax({
-                    url: '@Url.Action("RemoveFromCart", "Cart")',
+                    url: '@Url.Action("RemoveFromCart", "Cart", new { area = "Admin" })',
                     type: 'POST',
-                    data: {
-                        id: productId,
-                        __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()
+                    data: { cartItemId: cartItemId },
+                    success: function (result) {
+                        location.reload();
                     },
-                    success: function (response) {
-                        if (response.success) {
-                            row.remove();
-                            // Optionally, update the total price here
-                        } else {
-                            alert('Failed to remove product from cart.');
-                        }
-                    },
-                    error: function () {
-                        alert('Error occurred while removing product from cart.');
+                    error: function (xhr, status, error) {
+                        alert('An error occurred while removing the item from the cart.');
                     }
                 });
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            $('.quantity').on('change', function () {
+                var cartItemId = $(this).data('id');
+                var quantity = $(this).val();
+
+                $.ajax({
+                    url: '@Url.Action("UpdateQuantity", "Cart", new { area = "Admin" })',
+                    type: 'POST',
+                    data: { cartItemId: cartItemId, quantity: quantity },
+                    success: function (result) {
+                        location.reload();
+                    },
+                });
+            });
+        });
+    </script>
+
+
 }

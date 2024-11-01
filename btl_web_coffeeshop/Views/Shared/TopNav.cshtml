@@ -1,8 +1,4 @@
-﻿@{
-    var cartItemCount = ViewBag.CartItemCount ?? 0;
-}
-
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+﻿<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="@Url.Action("Index", "Home")">The Coffee House</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,8 +12,8 @@
                 <li class="nav-item"><a asp-controller="Home" asp-action="Blog" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a asp-controller="Home" asp-action="About" class="nav-link">About</a></li>
                 <li class="nav-item"><a asp-controller="Home" asp-action="Contact" class="nav-link">Contact</a></li>
-                <li class="nav-item cart"><a asp-controller="Home" asp-action="Cart" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center"><small>@cartItemCount</small></span></a></li>
-                <li class="nav-item cart"><a asp-controller="Home" asp-action="Login" class="nav-link"><span class="icon icon-user"></span></a></li>
+                <li class="nav-item cart"><a asp-controller="Home" asp-action="Cart" class="nav-link"><span class="icon icon-shopping_cart"></span><span class="bag d-flex justify-content-center align-items-center "><small>@await Component.InvokeAsync("CartItemCount")</small></span></a></li>
+                <li class="nav-item cart"><a asp-controller="Auth" asp-action="Login" class="nav-link"><span class="icon icon-user"></span></a></li>
             </ul>
         </div>
     </div>

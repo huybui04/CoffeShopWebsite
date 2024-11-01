@@ -120,20 +120,6 @@ namespace btl_web_coffeeshop.Controllers
             return View(viewModel);
         }
 
-
-        [HttpPost]
-        public IActionResult Checkout(CartViewModel model)
-        {
-            // Pass the cart data to the Checkout view
-            return View(model);
-        }
-
-        //Login
-        public IActionResult Login()
-        {
-            return View();
-        }
-
 		//Product Details
 		[Route("Detail/ProductDetail/{id}")]
 		public async Task<IActionResult> SingleProduct(int id)

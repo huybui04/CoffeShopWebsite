@@ -241,18 +241,23 @@
 				},
 				body: JSON.stringify({ productId: productId })
 			})
-				.then(response => response.json())
-				.then(data => {
-					if (data.success) {
-						// Cập nhật số lượng sản phẩm trong giỏ hàng
-						const cartCountElement = document.getElementById('cart-count');
-						cartCountElement.textContent = data.cartItemCount;
-					} else {
+			.then(response => {
+				if (response.ok) {
+					const cartCountElement = document.getElementById('cart-count');
+					cartCountElement.textContent = data.cartItemCount;
+						alert('Product added to cart successfully!');
+				} else {
 						alert('Failed to add product to cart.');
-					}
-				})
-				.catch(error => console.error('Error:', error));
+				}
+			})
+			.catch(error => {
+				console.error('Error:', error);
+					alert('Failed to add product to cart.');
+			});
+
 		}
 	</script>
+
+
 
 }
