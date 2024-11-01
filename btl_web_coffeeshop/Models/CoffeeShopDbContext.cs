@@ -8,9 +8,9 @@ public partial class CoffeeShopDbContext : DbContext
 {
     private readonly string CoffeeShopDB = "Data Source=localhost,1444;Initial Catalog=CoffeeShopDB;User ID=sa;Password=@Huy27112004;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
     private readonly string minhquan_conn = "Data Source=LAPTOP-3JRHUEFF\\SQLEXPRESS01;Initial Catalog=CoffeeShopDB;Persist Security Info=True;User ID=sa;Password=minhquan2004;Trust Server Certificate=True";
+    private readonly string hieu_conn = "Data Source=LAPTOP-CDVPPHBM;Initial Catalog=CoffeeShopDB;User ID=sa;Password=abc123;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
-
-    public CoffeeShopDbContext()
+	public CoffeeShopDbContext()
     {
     }
 
@@ -36,7 +36,7 @@ public partial class CoffeeShopDbContext : DbContext
     public virtual DbSet<UserRole> UserRoles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer(minhquan_conn);
+        => optionsBuilder.UseSqlServer(hieu_conn);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

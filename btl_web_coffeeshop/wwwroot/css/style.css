@@ -455,11 +455,11 @@ pre {
   overflow-y: scroll; }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;}
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -9191,6 +9191,38 @@ textarea.form-control {
     color: #000;
     font-style: italic; }
 
+.content-section {
+    position: relative;
+    text-align: center;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.breadcrumb-link {
+    color: white;
+}
+
 #ftco-loader {
   position: fixed;
   width: 96px;
@@ -9249,6 +9281,36 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
+#homeCarousel .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#homeCarousel .slider-item {
+    position: relative;
+    height: 100%;
+}
+
+#homeCarousel .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#homeCarousel .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
 
 @-webkit-keyframes loader-rotate {
   100% {
