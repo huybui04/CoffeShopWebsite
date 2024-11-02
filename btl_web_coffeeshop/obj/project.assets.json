@@ -11127,11 +11127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files (x86)\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+      "projectUniqueName": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
       "projectName": "btl_web_coffeeshop",
-      "projectPath": "D:\\Program Files (x86)\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+      "projectPath": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files (x86)\\BTL\\btl_web_coffeeshop\\obj\\",
+      "outputPath": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

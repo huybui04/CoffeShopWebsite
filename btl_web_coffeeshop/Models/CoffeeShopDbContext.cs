@@ -36,7 +36,7 @@ public partial class CoffeeShopDbContext : DbContext
     public virtual DbSet<UserRole> UserRoles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer(hieu_conn);
+        => optionsBuilder.UseSqlServer(minhquan_conn);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
