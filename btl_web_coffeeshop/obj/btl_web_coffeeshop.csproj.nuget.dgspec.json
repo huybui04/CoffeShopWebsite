@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj": {}
+    "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj": {}
   },
   "projects": {
-    "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj": {
+    "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+        "projectUniqueName": "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
         "projectName": "btl_web_coffeeshop",
-        "projectPath": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+        "projectPath": "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "F:\\workspace\\visual_studio_src\\CoffeShopWebsite\\btl_web_coffeeshop\\obj\\",
+        "outputPath": "D:\\BTL\\btl_web_coffeeshop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
