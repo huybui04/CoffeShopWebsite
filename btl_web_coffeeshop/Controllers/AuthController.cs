@@ -16,8 +16,6 @@ namespace btl_web_coffeeshop.Controllers
     {
         private readonly CoffeeShopDbContext _context;
         private readonly IConfiguration _configuration;
-
-        // Cập nhật constructor để nhận IConfiguration
         public AuthController(CoffeeShopDbContext context, IConfiguration configuration)
         {
             _context = context;
@@ -72,46 +70,62 @@ namespace btl_web_coffeeshop.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(User loginUser)
         {
+            // Kiểm tra xem người dùng có tồn tại không
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == loginUser.Username);
 
-            // Kiểm tra người dùng và mật khẩu
+            // Kiểm tra xem người dùng có tồn tại và xác thực mật khẩu
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginUser.PasswordHash, user.PasswordHash))
             {
                 ModelState.AddModelError("", "Tên người dùng hoặc mật khẩu không hợp lệ.");
-                return View(loginUser);
+                return View(loginUser); 
+            }
+
+            // Lấy vai trò người dùng dựa trên RoleId
+            var userRole = await _context.UserRoles.FirstOrDefaultAsync(r => r.RoleId == user.RoleId);
+            if (userRole == null)
+            {
+                ModelState.AddModelError("", "Vai trò người dùng không hợp lệ.");
+                return View(loginUser); 
             }
 
             // Tạo JWT token
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]); // Lấy khóa từ cấu hình
 
             var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-        new Claim(ClaimTypes.Name, user.Username),
-        new Claim(ClaimTypes.Role, user.RoleId == 1 ? "Admin" : "User") // Claim cho vai trò
-    };
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, userRole.RoleName) // Sử dụng RoleName từ UserRoles
+            };
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddHours(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
-                Audience = _configuration["Jwt:Audience"], // Đảm bảo đưa vào appsettings.json
-                Issuer = _configuration["Jwt:Issuer"]      // Đảm bảo đưa vào appsettings.json
+                Audience = _configuration["Jwt:Audience"], 
+                Issuer = _configuration["Jwt:Issuer"]   
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
 
-            // Đặt token JWT trong cookie
+            // Thiết lập JWT token trong cookie
             Response.Cookies.Append("jwt", tokenString, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = true, // Chỉ hoạt động trên HTTPS
+                Secure = true, // Chỉ hoạt động qua HTTPS
                 SameSite = SameSiteMode.Strict,
                 Expires = DateTime.UtcNow.AddHours(1)
             });
+
+            ViewBag.Username = user.Username;
+
+            if (userRole.RoleName == "Admin")
+            {
+                return RedirectToAction("Index", "Admin");
+            }
 
             return RedirectToAction("Index", "Home");
         }

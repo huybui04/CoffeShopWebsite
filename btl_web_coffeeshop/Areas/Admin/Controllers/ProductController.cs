@@ -27,18 +27,33 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
 
         [Route("")]
         [Route("index")]
-        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 10)
+        public async Task<IActionResult> Index(string searchQuery, int? categoryId, int pageIndex = 1, int pageSize = 10)
         {
-            var products = await db.Products
+            var products = db.Products
                 .Include(p => p.Category)
-                .ToPagedListAsync(pageIndex, pageSize);
+                .AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(searchQuery))
+            {
+                products = products.Where(p => p.Name.Contains(searchQuery) || (p.Category != null && p.Category.Name.Contains(searchQuery)));
+            }
+
+            if (categoryId.HasValue)
+            {
+                products = products.Where(p => p.CategoryId == categoryId);
+            }
+
+            var pagedList = await products.ToPagedListAsync(pageIndex, pageSize);
 
             if (Request.IsAjax()) // Check if the request is an AJAX request
             {
-                return PartialView("_ProductTable", products); // Return the partial view
+                return PartialView("_ProductTable", pagedList); // Return the partial view
             }
 
-            return View(products); // Return the full view for normal requests
+            // Pass categories to the view for dropdown
+            ViewBag.Categories = await db.Categories.ToListAsync();
+
+            return View(pagedList); // Return the full view for normal requests
         }
 
 
@@ -122,16 +137,29 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
                 var fileName = Path.GetFileNameWithoutExtension(product.UploadedImage.FileName);
                 var extension = Path.GetExtension(product.UploadedImage.FileName);
                 var newFileName = $"{fileName}_{Guid.NewGuid()}{extension}";
-                var path = Path.Combine(_environment.WebRootPath, "img", "products", newFileName);
 
-                using (var stream = new FileStream(path, FileMode.Create))
+                // Define the directory and full path
+                var directoryPath = Path.Combine(_environment.WebRootPath, "img", "products");
+                var fullPath = Path.Combine(directoryPath, newFileName);
+
+                // Ensure the directory exists
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath);
+                }
+
+                // Save the file to the specified path
+                using (var stream = new FileStream(fullPath, FileMode.Create))
                 {
                     await product.UploadedImage.CopyToAsync(stream);
                 }
 
+                // Set the ImageUrl to a relative path for display purposes
                 product.ImageUrl = $"/img/products/{newFileName}";
             }
         }
+
+
 
         [Route("Details")]
         [HttpGet]
@@ -240,20 +268,20 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            // Đường dẫn đến ảnh
+            // Path to the image
             var imagePath = Path.Combine(_environment.WebRootPath, product.ImageUrl.TrimStart('/'));
 
-            // Xóa ảnh nếu tồn tại
+            // Delete the image if it exists
             if (System.IO.File.Exists(imagePath))
             {
                 System.IO.File.Delete(imagePath);
             }
 
-            // Xóa sản phẩm
+            // Remove the product
             db.Products.Remove(product);
             await db.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index)); // Chuyển hướng về danh sách sản phẩm
+            return RedirectToAction(nameof(Index)); // Redirect to the product list
         }
 
 

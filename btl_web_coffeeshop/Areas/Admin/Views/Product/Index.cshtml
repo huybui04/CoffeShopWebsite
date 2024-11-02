@@ -6,31 +6,66 @@
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Products</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
 
+<div class="d-flex justify-content-between align-items-center mb-3">
+        <!-- Search Form on the Right -->
+    <form class="form-inline">
+        <div class="input-group">
+            <input type="text" id="searchQuery" class="form-control" placeholder="Search products..." style="width: 150px;">
+            <button type="button" class="btn btn-primary" onclick="searchProducts()">Search</button>
+        </div>
+    </form>
+
+    <!-- Filter Form on the Left -->
+    <form class="form-inline">
+        <div class="input-group">
+            <select id="categoryFilter" class="form-select" onchange="filterProducts()">
+                <option value="">All Categories</option>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <option value="@category.CategoryId">@category.Name</option>
+                }
+            </select>
+        </div>
+    </form>
+</div>
+
+
 <div id="productTableContainer">
     @Html.Partial("_ProductTable", Model) <!-- Load the initial table -->
 </div>
 
-@section Scripts {
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        function loadPage(pageIndex) {
-            $.ajax({
-                url: '@Url.Action("Index")',
-                type: 'GET',
-                data: { pageIndex: pageIndex },
-                success: function (result) {
-                    $('#productTableContainer').html(result); // Replace the table with the new data
-                },
-                error: function (xhr, status, error) {
-                    console.error("AJAX request failed:", status, error);
-                }
-            });
-        }
-    </script>
-}
+
+<script>
+    function loadPage(pageIndex) {
+        var searchQuery = $('#searchQuery').val(); // Get the current search query
+        var categoryId = $('#categoryFilter').val(); // Get the selected category
+
+        $.ajax({
+            url: '@Url.Action("Index")',
+            type: 'GET',
+            data: { pageIndex: pageIndex, searchQuery: searchQuery, categoryId: categoryId },
+            success: function (result) {
+                $('#productTableContainer').html(result); // Replace the table with the new data
+            },
+            error: function (xhr, status, error) {
+                console.error("AJAX request failed:", status, error);
+            }
+        });
+    }
+
+    function searchProducts() {
+        loadPage(1); // Start from the first page when searching
+    }
+
+    function filterProducts() {
+        loadPage(1); // Start from the first page when filtering by category
+    }
+</script>
+
+

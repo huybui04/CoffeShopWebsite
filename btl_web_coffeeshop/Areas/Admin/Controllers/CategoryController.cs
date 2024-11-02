@@ -20,17 +20,25 @@ namespace btl_web_coffeeshop.Areas.Admin.Controllers
 
         [Route("")]
         [Route("index")]
-        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 5)
+        public async Task<IActionResult> Index(string searchTerm = "", int pageIndex = 1, int pageSize = 5)
         {
-            var categories = await db.Categories.ToPagedListAsync(pageIndex, pageSize);
+            var categoriesQuery = db.Categories.AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                categoriesQuery = categoriesQuery.Where(c => c.Name.Contains(searchTerm)); // Adjust property name as needed
+            }
+
+            var categories = await categoriesQuery.ToPagedListAsync(pageIndex, pageSize);
 
             if (Request.IsAjax())
             {
-                return PartialView("_CategoryTable", categories); // categories là kiểu PagedList<Category>
+                return PartialView("_CategoryTable", categories); // Partial view for AJAX load
             }
 
-            return View(categories); // Trả về view với kiểu PagedList<Category>
+            return View(categories);
         }
+
 
 
         [Route("Create")]

@@ -1,7 +1,7 @@
 ﻿@model btl_web_coffeeshop.Utilities.PagedList<btl_web_coffeeshop.Models.Product>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -48,9 +48,9 @@
                         @:Chưa có danh mục
                     }
                 </td>
-                <td>
-                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                <td class="text-end">
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> 
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.ProductId">Details</a> 
                     <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
                 </td>
             </tr>

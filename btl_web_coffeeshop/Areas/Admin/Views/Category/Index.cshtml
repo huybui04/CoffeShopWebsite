@@ -2,9 +2,11 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
-    ViewData["Title"] = "Category";
+    ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
+
+<h1>Categories</h1>
 
 @if (TempData["ErrorMessage"] != null)
 {
@@ -13,84 +15,47 @@
     </div>
 }
 
-<h1>Category</h1>
-
 <p>
     <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
 
-<div id="categoryTable">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Items.First().Name)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Items.First().Description)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Items)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
-                        <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.CategoryId">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-    <div>
-        @if (Model.TotalPages > 1)
-        {
-            // Previous Button
-            if (Model.PageIndex > 1)
-            {
-                <button class="btn btn-secondary" onclick="loadPage(@(Model.PageIndex - 1))">Previous</button>
-            }
-
-            // Page Number Links
-            for (int i = 1; i <= Model.TotalPages; i++)
-            {
-                <button class="@(i == Model.PageIndex ? "btn btn-primary" : "btn btn-light")" onclick="loadPage(@i)">@i</button>
-            }
-
-            // Next Button
-            if (Model.PageIndex < Model.TotalPages)
-            {
-                <button class="btn btn-secondary" onclick="loadPage(@(Model.PageIndex + 1))">Next</button>
-            }
-        }
+<form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+    <div class="input-group">
+        <input type="text" id="searchInput" class="form-control" placeholder="Search..." style="width: 150px;" />
+        <button type="button" class="btn btn-primary" onclick="searchCategories()">Search</button>
     </div>
+</form>
+
+<div id="categoryTableContainer">
+    @Html.Partial("_CategoryTable", Model) <!-- Load the initial table -->
 </div>
 
-
 @section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         function loadPage(pageIndex) {
+            const searchTerm = $('#searchInput').val(); // Get the current search term
             $.ajax({
-                url: '@Url.Action("Index", "Category")', // Chỉnh sửa đường dẫn theo Controller của bạn
+                url: '@Url.Action("Index")',
                 type: 'GET',
-                data: { pageIndex: pageIndex, pageSize: @Model.PageSize },
+                data: { pageIndex: pageIndex, searchTerm: searchTerm },
                 success: function (result) {
-                    $('#categoryTable').html(result); // Cập nhật nội dung bảng
-                    // Cập nhật các nút phân trang nếu cần
+                    $('#categoryTableContainer').html(result); // Replace the table with the new data
                 },
-                error: function () {
-                    alert('Error loading data');
+                error: function (xhr, status, error) {
+                    console.error("AJAX request failed:", status, error);
                 }
             });
         }
+
+        function searchCategories() {
+            loadPage(1); // Load the first page with the current search term
+        }
+
+        $('#searchInput').on('keyup', function (event) {
+            if (event.key === 'Enter') {
+                searchCategories(); // Trigger search when pressing Enter
+            }
+        });
     </script>
 }

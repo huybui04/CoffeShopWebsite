@@ -8,14 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\img\**" />
-    <Content Remove="wwwroot\img\**" />
-    <EmbeddedResource Remove="wwwroot\img\**" />
-    <None Remove="wwwroot\img\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\img\products\" />
   </ItemGroup>
 
   <ItemGroup>

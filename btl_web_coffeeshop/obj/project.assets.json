@@ -11122,19 +11122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+      "projectUniqueName": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
       "projectName": "btl_web_coffeeshop",
-      "projectPath": "D:\\BTL\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BTL\\btl_web_coffeeshop\\obj\\",
+      "projectPath": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\btl_web_coffeeshop.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\Semester_1_2024_2025\\LTWeb\\Website-for-coffeeshop\\CoffeShopWebsite\\btl_web_coffeeshop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

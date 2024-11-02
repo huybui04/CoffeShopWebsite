@@ -139,7 +139,7 @@
             {
                 <div class="col-md-12 text-center">
                     <p>Let's add some products.</p>
-                    <p><a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+                    <p><a href="/home/menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
                 </div>
             }
         </div>
@@ -170,7 +170,6 @@
     <script>
         function checkout() {
             Swal.fire("Checkout", "Thank you for your order!", "success").then(() => {
-                // Xóa các sản phẩm trong giỏ hàng
                 clearCart();
             });
         }
@@ -190,61 +189,75 @@
 
         document.getElementById('proceedToCheckout').addEventListener('click', function (event) {
             event.preventDefault();
-        @if (User.Identity.IsAuthenticated)
-        {
-            <text>checkout();</text>
+
+            // Kiểm tra xem người dùng đã đăng nhập chưa
+            var isAuthenticated = @User.Identity.IsAuthenticated.ToString().ToLower();
+
+            if (isAuthenticated) {
+                checkout(); // Gọi hàm checkout nếu người dùng đã đăng nhập
+            } else {
+                showCheckoutOptions(); // Hiển thị tùy chọn checkout nếu chưa đăng nhập
+            }
+        });
+
+        function showCheckoutOptions() {
+            Swal.fire({
+                icon: "question",
+                title: "Checkout",
+                text: "Do you have an account or you want to checkout without login?",
+                showDenyButton: true,
+                showCancelButton: true,
+                denyButtonColor: "#3085d6",
+                confirmButtonText: "Login",
+                denyButtonText: `Checkout without login`
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "/Auth/Login"; // Chuyển đến trang đăng nhập
+                } else if (result.isDenied) {
+                    showCheckoutForm(); // Hiển thị form thanh toán
+                }
+            });
         }
-        else
-        {
-            <text>
-                        Swal.fire({
-                            icon: "question",
-                        title: "Checkout",
-                        text: "Do you have an account or you want to checkout without login?",
-                        showDenyButton: true,
-                        showCancelButton: true,
-                        denyButtonColor: "#3085d6",
-                        confirmButtonText: "Login",
-                        denyButtonText: `Checkout without login`
-                            }).then((result) => {
-                                if (result.isConfirmed) {
-                            window.location.href = "/Auth/Login";
-                                } else if (result.isDenied) {
-                            Swal.fire({
-                                title: 'Checkout Form',
-                                html: `
-                                            <input type="text" id="name" class="swal2-input" placeholder="Name">
-                                            <input type="email" id="email" class="swal2-input" placeholder="Email">
-                                            <input type="text" id="address" class="swal2-input" placeholder="Address">
-                                            <input type="text" id="phone" class="swal2-input" placeholder="Phone">
-                                        `,
-                                focusConfirm: false,
-                                preConfirm: () => {
-                                    const name = Swal.getPopup().querySelector('#name').value;
-                                    const email = Swal.getPopup().querySelector('#email').value;
-                                    const address = Swal.getPopup().querySelector('#address').value;
-                                    const phone = Swal.getPopup().querySelector('#phone').value;
-                                    if (!name || !email || !address || !phone) {
-                                        Swal.showValidationMessage(`Please enter all required fields`);
-                                    }
-                                    return { name, email, address, phone };
-                                }
-                            }).then((result) => {
-                                if (result.isConfirmed) {
-                                    const { name, email, address, phone } = result.value;
-                                    Swal.fire(`
-                                                Name: ${name}
-                                                Email: ${email}
-                                                Address: ${address}
-                                                Phone: ${phone}
-                                            `.trim());
-                                    checkout();
-                                }
-                            });
-                                }
-                            });
-            </text>
+
+        function showCheckoutForm() {
+            Swal.fire({
+                title: 'Checkout Form',
+                html: `
+                        <input type="text" id="name" class="swal2-input" placeholder="Your Name">
+                        <input type="email" id="email" class="swal2-input" placeholder="Your Email">
+                        <input type="text" id="address" class="swal2-input" placeholder="Your Address">
+                        <input type="text" id="phone" class="swal2-input" placeholder="Your Phone">
+                    `,
+                focusConfirm: false,
+                preConfirm: () => {
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const address = document.getElementById('address').value;
+                    const phone = document.getElementById('phone').value;
+
+                    return { name: name, email: email, address: address, phone: phone };
+                }
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const data = result.value;
+                    processCheckout(data); // Gọi hàm xử lý thanh toán với dữ liệu từ form
+                }
+            });
         }
-                });
+
+        function processCheckout(data) {
+            $.ajax({
+                url: '@Url.Action("Checkout", "Cart")',
+                type: 'POST',
+                data: data,
+                success: function (response) {
+                    checkout(); // Gọi hàm checkout sau khi thanh toán thành công
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error during checkout:', error);
+                }
+            });
+        }
     </script>
+
 }
